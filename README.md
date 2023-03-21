@@ -44,6 +44,6 @@ Example: `record win Alice Bob`
 Example: `save my_league.json`
 
 * `load <filepath>` - loads a saved league from a JSON file.
-Example: `locad my_league.json`
+Example: `load my_league.json`
 
 * `quit` - quits the game
