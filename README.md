@@ -36,7 +36,7 @@ Example: `add player Alice`
 * `print`- prints the state of the league
 
 * `record win <winner> <loser> `- records the result of a match.
-Example: `record win Alice Bob`
+Example: `record win Alice Mike`
 
 * `winner`- finds the current winner
 
