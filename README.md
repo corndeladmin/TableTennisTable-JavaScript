@@ -1,7 +1,7 @@
 # Table Tennis Table
 
 1. Fork this repo
-    * Go to this repo's GitHub page ({url here})
+    * Go to this repo's link TODO: ACADEMY22-557-Update todo links for final repo urls
     * Click `Fork` in the top-right of the page - this will create a copy of this repo in **your own GitHub account**
 
 2. Clone (download) the repo
@@ -12,7 +12,7 @@
     Your trainer will able to help you with this.
 
 3. "Cloning the repo" will create a folder on your computer with the files from this repo.  
-Open this folder in IntelliJ / Visual Studio Code.
+Open this folder in Visual Studio Code.
 
 4. Open a command-prompt in this same folder.  
 Your trainer can show you how to do this, if you need any help.
