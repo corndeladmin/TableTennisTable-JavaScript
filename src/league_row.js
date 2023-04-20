@@ -1,7 +1,5 @@
-import { env } from 'node:process'
-
 exports.create = function (maxSize, players = []) {
-  // function getMaxSizeWithSizeCap(maxSize) {
+  // function computeMaxSizeWithSizeCap(maxSize) {
   //   if (!env.hasOwnProperty("TABLE_TENNIS_LEAGUE_ROW_SIZE_CAP")) {
   //     return maxSize
   //   }
@@ -20,7 +18,7 @@ exports.create = function (maxSize, players = []) {
   return {
     getPlayers: function () { return players; },
     add: function (player) { players.push(player); },
-    isFull: function () { return players.length === maxSize /* getMaxSizeWithSizeCap(maxSize) again, ignore this */; }, 
+    isFull: function () { return players.length === maxSize /* computeMaxSizeWithSizeCap(maxSize) again, ignore this */; }, 
     includes: function (player) { return players.includes(player); },
     swap: swap
   };
