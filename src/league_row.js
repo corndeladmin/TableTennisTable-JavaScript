@@ -1,9 +1,13 @@
 exports.create = function (maxSize, players = []) {
   // function computeMaxSizeWithSizeCap(maxSize) {
-  //   if (!env.hasOwnProperty("TABLE_TENNIS_LEAGUE_ROW_SIZE_CAP")) {
+  //   if (!process.env.hasOwnProperty("TABLE_TENNIS_LEAGUE_ROW_SIZE_CAP")) {
   //     return maxSize
   //   }
-  //   const sizeCap = env.TABLE_TENNIS_LEAGUE_ROW_SIZE_CAP
+  //   const sizeCapString = process.env.TABLE_TENNIS_LEAGUE_ROW_SIZE_CAP
+  //   if (isNaN(sizeCapString) || isNaN(parseInt(sizeCapString))){
+  //     return maxSize
+  //   }
+  //   const sizeCap = parseInt(sizeCapString)
   //   return maxSize <= sizeCap 
   //           ? maxSize
   //           : sizeCap
@@ -18,7 +22,7 @@ exports.create = function (maxSize, players = []) {
   return {
     getPlayers: function () { return players; },
     add: function (player) { players.push(player); },
-    isFull: function () { return players.length === maxSize /* computeMaxSizeWithSizeCap(maxSize) again, ignore this */; }, 
+    isFull: function () { return players.length === maxSize /* ignore this too computeMaxSizeWithSizeCap(maxSize) */ }, 
     includes: function (player) { return players.includes(player); },
     swap: swap
   };
