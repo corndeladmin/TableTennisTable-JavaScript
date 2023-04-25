@@ -1,8 +1,6 @@
 # Table Tennis Table
 
-1. Fork this repo
-    * Go to this repo's link TODO: ACADEMY22-557-Update todo links for final repo urls
-    * Click `Fork` in the top-right of the page - this will create a copy of this repo in **your own account**
+1. Fork this repo: click `Fork` in the top-right of the page - this will create a copy of this repo in **your own account**
 
 2. Clone (download) the repo
     * Go to your newly-created fork of the repo (on GitHub).
